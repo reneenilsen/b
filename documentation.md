@@ -135,14 +135,14 @@ Ruby has many data types including string, Boolean, hash and number. As Ruby is 
 Number – In Ruby a number is a series of digits. Number can be used with a decimal place by using a dot (4.68). Numbers can be both inerter and float. \
 Boolean – This data type can only represent either true or false.\
 String – Strings are groupings of letters forming sentence or words. Strings are encased in either single quotes (‘ ‘) or double quotes (“ “).\
-Hashes – Hashes are a key and value set. A value can be assigned to a key using a rocket (=>) or a colon (:). A key and a value are separated by a comma and then encased in curly brackets ({ }).\
+Hashes – Hashes are a key and value set. A value can be assigned to a key using a rocket (=>) or a colon (:). A key and a value are separated by a comma and then encased in curly brackets ({ }).
 
 # 11. Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
 ## Classes
 MenuItems - To initalize the items and the prices\
 Menu - Store the menu items into an array, to get prices for each item, list the names for each item\
 Order - To initalize the hash to store the customers order\
-Cafe - To create a new order, welcome the customer to the cafe, print available items with name and price, get the customers order, take the customers order, add to customers order, give total for the order\
+Cafe - To create a new order, welcome the customer to the cafe, print available items with name and price, get the customers order, take the customers order, add to customers order, give total for the order
 
 
 # 12. Identify and explain the error in the code that is preventing correct execution of the program (100 words)
@@ -151,11 +151,11 @@ celsius = gets\
 fahrenheit = (celsius * 9 / 5) + 32\
 print "The result is: "\
 print fahrenheit\
-puts "."\
+puts "."
 ## Altered
 celsius = gets.to_i\
 fahrenheit = (celsius * 9 / 5) + 32\
-puts "The result is: #{fahrenheit}."\
+puts "The result is: #{fahrenheit}."
 
 The original solution is incorrect as the gets input was not coming in as integer and the calculation can only be executed on numbers, either integer or float. The data type is incorrect and the gets input needed to be coerced to an integer for the code to run without error. The code for the message to the terminal could also be condensed in a single puts statement using interpolation between the double quote string.    
 
@@ -167,14 +167,14 @@ while (i < arr.size - 1 and arr[i] < arr[i + 1])\
 	i = i + 1 end\
 puts i\
     arr[i] = arr[i + 1]\
-    arr[i + 1] = arr[i]\
+    arr[i + 1] = arr[i]
 ## Amended
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]\
 i = 0\
 while (i < arr.size - 1 and arr[i] < arr[i + 1])\
     i = i + 1 end\
 puts i\
-   arr[i+1], arr [1] = arr[i], arr[i+1]\
+   arr[i+1], arr [1] = arr[i], arr[i+1]
 
 # 14. Demonstrate your algorithmic thinking through completing the following two tasks, in order:
 ![alt text](https://github.com/reneenilsen/b/blob/master/IMG_20190927_203224.jpg "Ruby Flowchart")\
@@ -183,7 +183,7 @@ Loop through range of num from 1 to 100\
 Test of divisibility using modulo division. When it is zero, the num is divisible, so not Prime.\
 If not prime/true add +1 to num \
 If prime/false, print num and add +1 to num \
-Starts over \
+Starts over 
 
 # 15. Write pseudocode OR Ruby code for the following problem:
 
@@ -201,7 +201,7 @@ elsif raining == false && temp >=15\
     puts "It’s warm but not raining"\
 else\
     puts "It’s warm and raining"\
-end\
+end
 
 # 16. An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
 
@@ -237,4 +237,4 @@ class Allergies\
 \
   harry = Allergies.new(129)\
   puts harry.allergic_to?('cats')\
-  puts harry.list\
+  puts harry.list
