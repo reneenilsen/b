@@ -39,9 +39,7 @@ In 2004 Hotmail offered a tiny 2MB of email storage while Yahoo offered 4MB. Goo
 - TCP - Transmission Control protocol or TCP is a standard which defines establishing and maintaining a network conversation to exchange data through application programs. The TCP and IP work together to define how computers send packets of data. TCP and IP form the basic rules defining the internet. 
 TCP is a connection-orientated protocol, meaning a connection is established the maintained until the application programs completed their exchange. TCP dictates how to break data into packets so networks can deliver, send and accept the packets, TCP also manages the flow. The packets error handling is also through the TCP, it handles the retransmission of dropped or jumbled packets as well as the acknowledgement of the arrival of all the packets complete and error free. 
 
-- HTTP and HTTPS - Hyper Text Transfer Protocol or HTTP is the underlying protocol used by the WWW. This protocol decides how messages are formatted and transmitted. The HTTP also defines what actions web servers and browsers should do in response to various commands. This method focuses on how the information is presented but doesn’t address how it gets from A to B. This method can potentially be intercepted and manipulated by 3rd parties. 
-
-Hyper Text Transfer Protocol Secure or HTTPS is much like HTTP. It is a younger, more secure protocol. It is an encrypted connection and uses Secure Sockets Layer or SSL to transport the data safely. It is used for secure communication over computer networks. This protocol is very widely used on the internet. SSL doesn’t have anything to do with the way the data is displayed only how the data is transferred from A to B. 
+- HTTP and HTTPS - Hyper Text Transfer Protocol or HTTP is the underlying protocol used by the WWW. This protocol decides how messages are formatted and transmitted. The HTTP also defines what actions web servers and browsers should do in response to various commands. This method focuses on how the information is presented but doesn’t address how it gets from A to B. This method can potentially be intercepted and manipulated by 3rd parties. Hyper Text Transfer Protocol Secure or HTTPS is much like HTTP. It is a younger, more secure protocol. It is an encrypted connection and uses Secure Sockets Layer or SSL to transport the data safely. It is used for secure communication over computer networks. This protocol is very widely used on the internet. SSL doesn’t have anything to do with the way the data is displayed only how the data is transferred from A to B. 
 
 - Web browsers (requests, rendering and developer tools) - A web browser or more commonly known as a browser is an application for accessing the WWW. A web page, image or video are individually identified by a Uniform Resource Locator or URL. This enables the browser to retrieve the resource from a server, return and display on the users device. 
 An information request is made from a client to a server over HTTP. This request is made for a webpage, data, text, image or video then uses HTTP. The server responds with the data and it is sent to the client and displayed on their device. 
@@ -76,12 +74,12 @@ An interpreter can immediately execute high-level programs. For this reason, int
 
 ## JavaScript 
 
-PROS
+PROS\
 JavaScript is an interpreted language, it can reduces the time required by other languages for compilation. This language also is a client-side script, speeding up execution and time to connect to the server. 
 JavaScript is reasonable easy to understand and learn. The structure is simple for both developers and users. The language is also simple to implement saving developers to develop content for the web.
 All modern browsers support JavaScript so it widely used and popular. Many companies use JavaScript as a tool. 
 
-CONS
+CONS\
 JavaScript code is viewable to the user therefore others can use it for malicious purposes, such as using source code without authentication or place code within the site that could compromise the security of data. 
 Even though JavaScript is supported by all modern browsers, browsers can interpret the language differently. The code needs to be tested on various browsers before publication. Also older browsers don’t support some of the new features so they also need to be tested. 
 JavaScript debugging editors are not as efficient as other editors. The browser also doesn’t show any errors so it can be difficult to find problems and potential issues. 
@@ -100,13 +98,6 @@ Python is used in many areas of development in desktop and server platforms, mob
 An interpreter is used for Python instead of a compiler, which slows down own because compiling and running help it run smoothly. In web applications it is fast. 
 
 # 7. Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
-Word count guide: 200 - 400 words for each ethical issue
-
-# For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
-Word count guide: 200 words max
-
-# Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches.
-Word count guide: 400 - 600 words
 ## IP, Copyright and Acknowledgement
 An IT professional is responsible for intellectual property, copyright, and acknowledgement. Web design is a common place to find this. IP or Intellectual Property can easily be infringed upon. It is important to include easily accessible sections that state the terms and conditions of use of the data whether it be text, images, and video. It is also important as a developer to check the materials you use and make sure you are not infringing on others IP. In web design the developer needs to set the terms of use for the webpage. This could include making your webpage content free for educational purposes (limited copyright). The client is then able to use the content for an educational class. Some content is able to be fully copied for free (no copyright) with no restrictions. It is important to decide how you want your content to be copyrighted and check the webpages you use are suitable for the use you are intending. Acknowledgement on the web is about giving credit to the author/owner of a particular resource. As a developer it can be difficult to know if acknowledgement is due. LoremPixel, a stock image site gives royalty free images for use without restriction. This site also offers the author/owner if you would like to give acknowledgment but it is not required. It is important to know where the images, quotes and videos you use require credit to the author/owner if you intend to use them.
 ## Legal
@@ -130,15 +121,6 @@ The Global Positioning System or GPS is a navigation system that allows land, se
 https://oaic.gov.au/privacy/your-privacy-rights/surveillance-and-monitoring/
 http://www8.austlii.edu.au/cgi-bin/viewdb/au/legis/nsw/consol_act/wsa2005245/
 While Queensland has not specific GPS tracking laws (currently using Australian Surveillance Laws) and has become a new issue that many are confused about, NSW has laws regarding GPS tracking in the workplace, but still mainly use the Australian Surveillance Laws. These law related information resources are unfortunately not overly useful as an IT professional working with clients private GPS tracking data. There are not set rules but as a IT professional you would protect the data from malicious parties and only give data in the case of full approval and acknowledgement.
-
-
-
-
-
-
-
-
-
 
 # 8. Explain control flow, using an example from the Ruby programming language
 In Ruby there is a set of keywords called conditionals. Conditionals execute a certain statement under a certain condition. Loops are blocks of code that can be executed multiple times. These loops are executed from top then line by line until it gets to the bottom of the block. Ruby also provides statements to change the flow in an application. Statements are executed one after the other until the condition returns true then the code is terminated.  
