@@ -101,15 +101,15 @@ An interpreter is used for Python instead of a compiler, which slows down own be
 ## IP, Copyright and Acknowledgement
 An IT professional is responsible for intellectual property, copyright, and acknowledgement. Web design is a common place to find this. IP or Intellectual Property can easily be infringed upon. It is important to include easily accessible sections that state the terms and conditions of use of the data whether it be text, images, and video. It is also important as a developer to check the materials you use and make sure you are not infringing on others IP. In web design the developer needs to set the terms of use for the webpage. This could include making your webpage content free for educational purposes (limited copyright). The client is then able to use the content for an educational class. Some content is able to be fully copied for free (no copyright) with no restrictions. It is important to decide how you want your content to be copyrighted and check the webpages you use are suitable for the use you are intending. Acknowledgement on the web is about giving credit to the author/owner of a particular resource. As a developer it can be difficult to know if acknowledgement is due. LoremPixel, a stock image site gives royalty free images for use without restriction. This site also offers the author/owner if you would like to give acknowledgment but it is not required. It is important to know where the images, quotes and videos you use require credit to the author/owner if you intend to use them.
 ## Legal
-https://www.smartcopying.edu.au/\
+https://www.smartcopying.edu.au/
 This site while intended for School and higher education students lists topics related to copyright, licensing and general how to use copyright. The smart copy site while not directly related with the Australian Copyright Law or Australian Government Copyright Council is a useful resource regarding copyright set in a simple and easy to follow language. 
-https://www.copyright.org.au/acc_prod/ACC/Information_Sheets/An_Introduction_to_Copyright_in_Australia.aspx\
+https://www.copyright.org.au/acc_prod/ACC/Information_Sheets/An_Introduction_to_Copyright_in_Australia.aspx
 If a more formal copyright was sought, the ACC has an introduction to copyright. It’s a small document that discusses the main points to know regarding copyright such as what does copyright protect, who owns the copyright, how and when to use the ‘copyright notice’ and symbol among other copyright points.
 ## Case Study
 Authentic Design Alliance\
 CASE STUDY The Problem With Copyright – Don’t Assume You’re Covered!\
 28/10/2018\
- https://authenticdesignalliance.org/copyright-what-is-the-problem/\
+ https://authenticdesignalliance.org/copyright-what-is-the-problem/
 Some of Australia’s best-known rock photographers are calling copyright infringement by the online auction of media giant Fairfax’s Sydney Morning Herald image archive.On Friday ABC news reported hundreds of original photographs that include Michael Hutchence and Kylie Minogue, Cold Chisel, Midnight Oil and many more iconic Australian and international rock musicians - are being sold online through Lawsons Auction house.Long story short – in 2013 Fairfax outsourced digitising their image archive to a US company that went broke and 2 million prints from the Sydney Morning Herald fell into the hands of the LA art dealer who has subsequently put them on sale in Australia.Finding multiple copies of their work in the auction, photographers took to Facebook with a string of WTF comments. Legends Tony Mott and Ian Greene claim in the thread they not only retain the negatives to the images, but still own copyright.
 
 In this case the photographers most likely had an agreement (though copyright still belongs with the photographer) with Fairfax for use of their images. When Fairfax outsourced the digitising of their image archive to an overseas company. Fairfax extended the extended the agreement with the photographers, whether they were aware of this is unknown. When the overseas company when broke, an LA art dealer acquired the photographs. This is where the case gets tricky. The LA Art dealer may have paid the now broke company, this company didn’t have the right to. The photographers of the images still own them, whether they are sold or not. The dealer was also republished the images without photographer permission and were not credited or acknowledged. Photography in Australia is automatically protected. Currently images after 1955 are protected by copyright for the life of the creator plus an additional 50 years.
@@ -118,8 +118,8 @@ Ethical IT professions should in this case give credit to the photographer if pe
 ## GPS TRACKING
 The Global Positioning System or GPS is a navigation system that allows land, sea and airborne users to determine exact positioning, speed and time anywhere in the world through the use of satellites. GPS can be used for varying situations. These include GPS directions through Google maps, tracking police cars and fitness and medical devices. The information regarding the current location speed and time zone can be a helpful resource and these are often sent to other parties to gain information, improve products. This information can also be used for malicious purposes. This is where the ethics of GPS arise. As an IT professional you need to be aware of what information is being collected and how it is being used. GPS tracking can show a great deal about a person. It can easily be seen that a person’s privacy becomes compromised, outweighing the benefits. The clients GPS data should be used in a way that complies with protecting their privacy. This data must be protected from other parties with malicious intent. This personal data should only be shared with the acknowledgement and approval of the client. 
 ## Legal
-https://oaic.gov.au/privacy/your-privacy-rights/surveillance-and-monitoring/\
-http://www8.austlii.edu.au/cgi-bin/viewdb/au/legis/nsw/consol_act/wsa2005245/\
+https://oaic.gov.au/privacy/your-privacy-rights/surveillance-and-monitoring/
+http://www8.austlii.edu.au/cgi-bin/viewdb/au/legis/nsw/consol_act/wsa2005245/
 While Queensland has not specific GPS tracking laws (currently using Australian Surveillance Laws) and has become a new issue that many are confused about, NSW has laws regarding GPS tracking in the workplace, but still mainly use the Australian Surveillance Laws. These law related information resources are unfortunately not overly useful as an IT professional working with clients private GPS tracking data. There are not set rules but as a IT professional you would protect the data from malicious parties and only give data in the case of full approval and acknowledgement.
 
 # 8. Explain control flow, using an example from the Ruby programming language
@@ -177,7 +177,7 @@ puts i\
    arr[i+1], arr [1] = arr[i], arr[i+1]
 
 # 14. Demonstrate your algorithmic thinking through completing the following two tasks, in order:
-![alt text](https://github.com/reneenilsen/b/blob/master/IMG_20190927_203224.jpg "Ruby Flowchart")\
+![alt text](https://github.com/reneenilsen/b/blob/master/IMG_20190927_203224.jpg "Ruby Flowchart")
 
 Loop through range of num from 1 to 100\
 Test of divisibility using modulo division. When it is zero, the num is divisible, so not Prime.\
